@@ -52,6 +52,12 @@ reels and say "write my voice.md from these". Every skill reads that file. It
 matters more here than on other platforms, because you have to say the words
 out loud.
 
+## The CLI
+
+[`cli/ig.py`](cli/README.md) is a dependency-free command line for the official Instagram
+Graph API: list posts, read insights, handle comments, publish reels, carousels
+and stories, send DMs. Everything that posts is a dry run until you pass `--yes`.
+
 ## The thirteen
 
 | command | what it does |
